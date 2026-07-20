@@ -1,10 +1,11 @@
 {
   "name": "Rayssa Zaine Massoterapia",
   "short_name": "RZ Massoterapia",
-  "start_url": "https://script.google.com/macros/s/AKfycbzpSNcxGfD6cSutik1lQ6fW_D8gRlA-jhoFLVSOGpx0Rsfb7Ksq2CPJVMZ2vbXLJG4h/exec",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#F5F5F4",
-  "theme_color": "#B7823A",
+  "background_color": "#0B0F12",
+  "theme_color": "#0B0F12",
   "orientation": "portrait",
   "icons": [
     { "src": "icone.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
