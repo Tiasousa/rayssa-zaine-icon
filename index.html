@@ -26,6 +26,13 @@
     p{font-size:14px;margin-top:14px}
   </style>
 
+  <!-- Registra o service worker (necessário para o Chrome oferecer "Instalar app") -->
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('sw.js').catch(function(){});
+    }
+  </script>
+
   <!-- Redireciona automaticamente para o sistema -->
   <script>
     setTimeout(function(){
